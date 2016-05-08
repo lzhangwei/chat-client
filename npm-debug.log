@@ -1,0 +1,1013 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-connect-proxy',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.4
+4 verbose install initial load of /Users/weizhang/Project/chat-system/client/package.json
+5 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/babel-core/package.json
+6 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/babel-preset-es2015/package.json
+7 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/babel-register/package.json
+8 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/browser-sync/package.json
+9 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/del/package.json
+10 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/grunt/package.json
+11 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/package.json
+12 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp/package.json
+13 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-autoprefixer/package.json
+14 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-babel/package.json
+15 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-cache/package.json
+16 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-cssnano/package.json
+17 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-eslint/package.json
+18 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-htmlmin/package.json
+19 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-if/package.json
+20 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-imagemin/package.json
+21 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-load-plugins/package.json
+22 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-plumber/package.json
+23 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-size/package.json
+24 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-sourcemaps/package.json
+25 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-uglify/package.json
+26 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-useref/package.json
+27 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/main-bower-files/package.json
+28 verbose installManyTop reading scoped package data from /Users/weizhang/Project/chat-system/client/node_modules/wiredep/package.json
+29 info package.json gulp-eslint@0.13.2 No license field.
+30 info package.json gulp-if@1.2.5 No license field.
+31 info package.json wiredep@2.2.2 No license field.
+32 info package.json grunt-connect-proxy@0.2.0 No license field.
+33 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/package.json
+34 verbose install grunt-connect-proxy is installed as 0.2.0
+35 silly cache add args [ 'grunt-connect-proxy', null ]
+36 verbose cache add spec grunt-connect-proxy
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'grunt-connect-proxy',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'grunt-connect-proxy',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed grunt-connect-proxy@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for grunt-connect-proxy
+40 info addNameTag [ 'grunt-connect-proxy', 'latest' ]
+41 silly mapToRegistry name grunt-connect-proxy
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: 'grunt-connect-proxy',
+44 silly mapToRegistry   scope: null,
+44 silly mapToRegistry   name: 'grunt-connect-proxy',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri https://registry.npmjs.org/grunt-connect-proxy
+46 verbose addNameTag registry:https://registry.npmjs.org/grunt-connect-proxy not in flight; fetching
+47 verbose request uri https://registry.npmjs.org/grunt-connect-proxy
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 4:55:37 PM
+50 verbose request id aeadc7b9f3733026
+51 verbose etag "7T50PU98TPZQ42R96XNXOH3P0"
+52 http request GET https://registry.npmjs.org/grunt-connect-proxy
+53 http 304 https://registry.npmjs.org/grunt-connect-proxy
+54 verbose headers { date: 'Sun, 08 May 2016 08:55:39 GMT',
+54 verbose headers   via: '1.1 varnish',
+54 verbose headers   'cache-control': 'max-age=300',
+54 verbose headers   etag: '"7T50PU98TPZQ42R96XNXOH3P0"',
+54 verbose headers   age: '73',
+54 verbose headers   connection: 'keep-alive',
+54 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+54 verbose headers   'x-cache': 'HIT',
+54 verbose headers   'x-cache-hits': '1',
+54 verbose headers   'x-timer': 'S1462697739.020143,VS0,VE0',
+54 verbose headers   vary: 'Accept-Encoding' }
+55 silly get cb [ 304,
+55 silly get   { date: 'Sun, 08 May 2016 08:55:39 GMT',
+55 silly get     via: '1.1 varnish',
+55 silly get     'cache-control': 'max-age=300',
+55 silly get     etag: '"7T50PU98TPZQ42R96XNXOH3P0"',
+55 silly get     age: '73',
+55 silly get     connection: 'keep-alive',
+55 silly get     'x-served-by': 'cache-sin6920-SIN',
+55 silly get     'x-cache': 'HIT',
+55 silly get     'x-cache-hits': '1',
+55 silly get     'x-timer': 'S1462697739.020143,VS0,VE0',
+55 silly get     vary: 'Accept-Encoding' } ]
+56 verbose etag https://registry.npmjs.org/grunt-connect-proxy from cache
+57 verbose get saving grunt-connect-proxy to /Users/weizhang/.npm/registry.npmjs.org/grunt-connect-proxy/.cache.json
+58 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+59 silly addNameTag next cb for grunt-connect-proxy with tag latest
+60 silly addNamed grunt-connect-proxy@0.2.0
+61 verbose addNamed "0.2.0" is a plain semver version for grunt-connect-proxy
+62 silly cache afterAdd grunt-connect-proxy@0.2.0
+63 verbose afterAdd /Users/weizhang/.npm/grunt-connect-proxy/0.2.0/package/package.json not in flight; writing
+64 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+65 verbose afterAdd /Users/weizhang/.npm/grunt-connect-proxy/0.2.0/package/package.json written
+66 silly install resolved [ { name: 'grunt-connect-proxy',
+66 silly install resolved     description: 'Provides a http proxy as middleware for grunt connect.',
+66 silly install resolved     version: '0.2.0',
+66 silly install resolved     homepage: 'https://github.com/drewzboto/grunt-connect-proxy',
+66 silly install resolved     author: { name: 'Drewz', email: 'drewz@2mod5.com' },
+66 silly install resolved     repository:
+66 silly install resolved      { type: 'git',
+66 silly install resolved        url: 'git://github.com/drewzboto/grunt-connect-proxy.git' },
+66 silly install resolved     bugs: { url: 'https://github.com/drewzboto/grunt-connect-proxy/issues' },
+66 silly install resolved     licenses: [ [Object] ],
+66 silly install resolved     main: 'Gruntfile.js',
+66 silly install resolved     engines: { node: '>= 0.10.0' },
+66 silly install resolved     scripts: { test: 'grunt test' },
+66 silly install resolved     dependencies: { 'http-proxy': '~1.11.0', lodash: '~0.9.0' },
+66 silly install resolved     devDependencies:
+66 silly install resolved      { 'grunt-contrib-jshint': '~0.1.1',
+66 silly install resolved        'grunt-contrib-clean': '~0.4.0',
+66 silly install resolved        'grunt-contrib-nodeunit': '~0.1.2',
+66 silly install resolved        grunt: '~0.4.1',
+66 silly install resolved        'grunt-contrib-connect': '~0.5.0' },
+66 silly install resolved     peerDependencies: { grunt: '~0.4.1' },
+66 silly install resolved     keywords: [ 'gruntplugin', 'proxy', 'connect', 'http', 'grunt' ],
+66 silly install resolved     gitHead: 'fcd37bdb7f96717a4b03770fcd2a071f43ebc130',
+66 silly install resolved     _id: 'grunt-connect-proxy@0.2.0',
+66 silly install resolved     _shasum: '5d4ce827b55080a8f5d55360c80f4ab5626f46f8',
+66 silly install resolved     _from: 'grunt-connect-proxy@latest',
+66 silly install resolved     _npmVersion: '2.6.0',
+66 silly install resolved     _nodeVersion: '0.10.36',
+66 silly install resolved     _npmUser: { name: 'ruiaraujo', email: 'ruka.araujo@gmail.com' },
+66 silly install resolved     dist:
+66 silly install resolved      { shasum: '5d4ce827b55080a8f5d55360c80f4ab5626f46f8',
+66 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-connect-proxy/-/grunt-connect-proxy-0.2.0.tgz' },
+66 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+66 silly install resolved     directories: {},
+66 silly install resolved     _resolved: 'https://registry.npmjs.org/grunt-connect-proxy/-/grunt-connect-proxy-0.2.0.tgz',
+66 silly install resolved     readme: 'ERROR: No README data found!' } ]
+67 info install grunt-connect-proxy@0.2.0 into /Users/weizhang/Project/chat-system/client
+68 info installOne grunt-connect-proxy@0.2.0
+69 verbose installOne of grunt-connect-proxy to /Users/weizhang/Project/chat-system/client not in flight; installing
+70 verbose correctMkdir /Users/weizhang/.npm/_locks correctMkdir not in flight; initializing
+71 verbose lock using /Users/weizhang/.npm/_locks/grunt-connect-proxy-8d2048f66f3fe1d0.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+72 silly install write writing grunt-connect-proxy 0.2.0 to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+73 verbose unbuild node_modules/grunt-connect-proxy
+74 info preuninstall grunt-connect-proxy@0.2.0
+75 info uninstall grunt-connect-proxy@0.2.0
+76 verbose unbuild rmStuff grunt-connect-proxy@0.2.0 from /Users/weizhang/Project/chat-system/client/node_modules
+77 info postuninstall grunt-connect-proxy@0.2.0
+78 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy is being purged from base /Users/weizhang/Project/chat-system/client
+79 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+80 silly vacuum-fs purging /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+81 silly vacuum-fs quitting because other entries in /Users/weizhang/Project/chat-system/client/node_modules
+82 verbose tar unpack /Users/weizhang/.npm/grunt-connect-proxy/0.2.0/package.tgz
+83 verbose tar unpacking to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+84 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy is being purged
+85 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+86 silly gunzTarPerm modes [ '755', '644' ]
+87 silly gunzTarPerm extractEntry package.json
+88 silly gunzTarPerm extractEntry .npmignore
+89 silly gunzTarPerm extractEntry README.md
+90 silly gunzTarPerm extractEntry Gruntfile.js
+91 silly gunzTarPerm extractEntry LICENSE-MIT
+92 silly gunzTarPerm extractEntry .jshintrc
+93 silly gunzTarPerm extractEntry examples/sample.yeoman.grunt.js
+94 silly gunzTarPerm extractEntry lib/utils.js
+95 silly gunzTarPerm extractEntry .editorconfig
+96 silly gunzTarPerm extractEntry tasks/connect_proxy.js
+97 silly gunzTarPerm extractEntry test/connect_proxy_test.js
+98 silly gunzTarPerm extractEntry test/hide_headers_test.js
+99 silly gunzTarPerm extractEntry test/request_test.js
+100 silly gunzTarPerm extractEntry test/server2_proxy_test.js
+101 silly gunzTarPerm extractEntry test/server3_proxy_test.js
+102 silly gunzTarPerm extractEntry test/utils_test.js
+103 verbose write writing to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/package.json
+104 info preinstall grunt-connect-proxy@0.2.0
+105 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/package.json
+106 silly prepareForInstallMany adding http-proxy@~1.11.0 from grunt-connect-proxy dependencies
+107 silly prepareForInstallMany adding lodash@~0.9.0 from grunt-connect-proxy dependencies
+108 silly prepareForInstallMany adding grunt@~0.4.1 from grunt-connect-proxy peerDependencies
+109 warn peerDependencies The peer dependency grunt@~0.4.1 included from grunt-connect-proxy will no
+110 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+111 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+112 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/package.json
+113 silly cache add args [ 'http-proxy@~1.11.0', null ]
+114 verbose cache add spec http-proxy@~1.11.0
+115 silly cache add args [ 'lodash@~0.9.0', null ]
+116 verbose cache add spec lodash@~0.9.0
+117 silly cache add parsed spec Result {
+117 silly cache add   raw: 'http-proxy@~1.11.0',
+117 silly cache add   scope: null,
+117 silly cache add   name: 'http-proxy',
+117 silly cache add   rawSpec: '~1.11.0',
+117 silly cache add   spec: '>=1.11.0 <1.12.0',
+117 silly cache add   type: 'range' }
+118 silly addNamed http-proxy@>=1.11.0 <1.12.0
+119 verbose addNamed ">=1.11.0 <1.12.0" is a valid semver range for http-proxy
+120 silly addNameRange { name: 'http-proxy', range: '>=1.11.0 <1.12.0', hasData: false }
+121 silly mapToRegistry name http-proxy
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry data Result {
+124 silly mapToRegistry   raw: 'http-proxy',
+124 silly mapToRegistry   scope: null,
+124 silly mapToRegistry   name: 'http-proxy',
+124 silly mapToRegistry   rawSpec: '',
+124 silly mapToRegistry   spec: 'latest',
+124 silly mapToRegistry   type: 'tag' }
+125 silly mapToRegistry uri https://registry.npmjs.org/http-proxy
+126 verbose addNameRange registry:https://registry.npmjs.org/http-proxy not in flight; fetching
+127 silly cache add parsed spec Result {
+127 silly cache add   raw: 'lodash@~0.9.0',
+127 silly cache add   scope: null,
+127 silly cache add   name: 'lodash',
+127 silly cache add   rawSpec: '~0.9.0',
+127 silly cache add   spec: '>=0.9.0 <0.10.0',
+127 silly cache add   type: 'range' }
+128 silly addNamed lodash@>=0.9.0 <0.10.0
+129 verbose addNamed ">=0.9.0 <0.10.0" is a valid semver range for lodash
+130 silly addNameRange { name: 'lodash', range: '>=0.9.0 <0.10.0', hasData: false }
+131 silly mapToRegistry name lodash
+132 silly mapToRegistry using default registry
+133 silly mapToRegistry registry https://registry.npmjs.org/
+134 silly mapToRegistry data Result {
+134 silly mapToRegistry   raw: 'lodash',
+134 silly mapToRegistry   scope: null,
+134 silly mapToRegistry   name: 'lodash',
+134 silly mapToRegistry   rawSpec: '',
+134 silly mapToRegistry   spec: 'latest',
+134 silly mapToRegistry   type: 'tag' }
+135 silly mapToRegistry uri https://registry.npmjs.org/lodash
+136 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+137 verbose request uri https://registry.npmjs.org/http-proxy
+138 verbose request no auth needed
+139 info attempt registry request try #1 at 4:55:39 PM
+140 verbose etag "7R7TZTZU13B7HC8ZZJFYU49OU"
+141 http request GET https://registry.npmjs.org/http-proxy
+142 verbose request uri https://registry.npmjs.org/lodash
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 4:55:39 PM
+145 verbose etag "BTBW9950HLSBL1SITOYD2JXIX"
+146 http request GET https://registry.npmjs.org/lodash
+147 http 304 https://registry.npmjs.org/http-proxy
+148 verbose headers { date: 'Sun, 08 May 2016 08:55:39 GMT',
+148 verbose headers   via: '1.1 varnish',
+148 verbose headers   'cache-control': 'max-age=300',
+148 verbose headers   etag: '"7R7TZTZU13B7HC8ZZJFYU49OU"',
+148 verbose headers   age: '285',
+148 verbose headers   connection: 'keep-alive',
+148 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+148 verbose headers   'x-cache': 'HIT',
+148 verbose headers   'x-cache-hits': '5',
+148 verbose headers   'x-timer': 'S1462697739.287082,VS0,VE0',
+148 verbose headers   vary: 'Accept-Encoding' }
+149 silly get cb [ 304,
+149 silly get   { date: 'Sun, 08 May 2016 08:55:39 GMT',
+149 silly get     via: '1.1 varnish',
+149 silly get     'cache-control': 'max-age=300',
+149 silly get     etag: '"7R7TZTZU13B7HC8ZZJFYU49OU"',
+149 silly get     age: '285',
+149 silly get     connection: 'keep-alive',
+149 silly get     'x-served-by': 'cache-sin6920-SIN',
+149 silly get     'x-cache': 'HIT',
+149 silly get     'x-cache-hits': '5',
+149 silly get     'x-timer': 'S1462697739.287082,VS0,VE0',
+149 silly get     vary: 'Accept-Encoding' } ]
+150 verbose etag https://registry.npmjs.org/http-proxy from cache
+151 verbose get saving http-proxy to /Users/weizhang/.npm/registry.npmjs.org/http-proxy/.cache.json
+152 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+153 silly addNameRange number 2 { name: 'http-proxy', range: '>=1.11.0 <1.12.0', hasData: true }
+154 silly addNameRange versions [ 'http-proxy',
+154 silly addNameRange   [ '0.5.9',
+154 silly addNameRange     '0.5.10',
+154 silly addNameRange     '0.5.11',
+154 silly addNameRange     '0.6.0',
+154 silly addNameRange     '0.6.1',
+154 silly addNameRange     '0.6.2',
+154 silly addNameRange     '0.6.4',
+154 silly addNameRange     '0.6.5',
+154 silly addNameRange     '0.6.6',
+154 silly addNameRange     '0.7.0',
+154 silly addNameRange     '0.7.2',
+154 silly addNameRange     '0.7.3',
+154 silly addNameRange     '0.7.4',
+154 silly addNameRange     '0.7.5',
+154 silly addNameRange     '0.7.6',
+154 silly addNameRange     '0.8.0',
+154 silly addNameRange     '0.8.1',
+154 silly addNameRange     '0.8.2',
+154 silly addNameRange     '0.8.3',
+154 silly addNameRange     '0.8.4',
+154 silly addNameRange     '0.8.5',
+154 silly addNameRange     '0.8.6',
+154 silly addNameRange     '0.8.7',
+154 silly addNameRange     '0.9.0',
+154 silly addNameRange     '0.9.1',
+154 silly addNameRange     '0.10.0',
+154 silly addNameRange     '0.10.1',
+154 silly addNameRange     '0.10.2',
+154 silly addNameRange     '0.10.3',
+154 silly addNameRange     '0.10.4',
+154 silly addNameRange     '1.0.0',
+154 silly addNameRange     '1.0.1',
+154 silly addNameRange     '1.0.2',
+154 silly addNameRange     '1.0.3',
+154 silly addNameRange     '1.1.0',
+154 silly addNameRange     '1.1.1',
+154 silly addNameRange     '1.1.2',
+154 silly addNameRange     '1.1.3',
+154 silly addNameRange     '1.1.4',
+154 silly addNameRange     '1.1.5',
+154 silly addNameRange     '1.1.6',
+154 silly addNameRange     '1.2.0',
+154 silly addNameRange     '1.2.1',
+154 silly addNameRange     '1.3.0',
+154 silly addNameRange     '1.4.0',
+154 silly addNameRange     '1.4.1',
+154 silly addNameRange     '1.4.2',
+154 silly addNameRange     '1.4.3',
+154 silly addNameRange     '1.5.0',
+154 silly addNameRange     '1.5.1',
+154 silly addNameRange     '1.5.2',
+154 silly addNameRange     '1.5.3',
+154 silly addNameRange     '1.6.0',
+154 silly addNameRange     '1.6.1',
+154 silly addNameRange     '1.6.2',
+154 silly addNameRange     '1.7.0',
+154 silly addNameRange     '1.7.1',
+154 silly addNameRange     '1.7.2',
+154 silly addNameRange     '1.7.3',
+154 silly addNameRange     '1.8.0',
+154 silly addNameRange     '1.8.1',
+154 silly addNameRange     '1.9.0',
+154 silly addNameRange     '1.9.1',
+154 silly addNameRange     '1.10.0',
+154 silly addNameRange     '1.10.1',
+154 silly addNameRange     '1.11.0',
+154 silly addNameRange     '1.11.1',
+154 silly addNameRange     '1.11.2',
+154 silly addNameRange     '1.11.3',
+154 silly addNameRange     '1.12.0',
+154 silly addNameRange     '1.12.1',
+154 silly addNameRange     '1.13.0',
+154 silly addNameRange     '1.13.1',
+154 silly addNameRange     '1.13.2' ] ]
+155 silly addNamed http-proxy@1.11.3
+156 verbose addNamed "1.11.3" is a plain semver version for http-proxy
+157 silly cache afterAdd http-proxy@1.11.3
+158 verbose afterAdd /Users/weizhang/.npm/http-proxy/1.11.3/package/package.json not in flight; writing
+159 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+160 verbose afterAdd /Users/weizhang/.npm/http-proxy/1.11.3/package/package.json written
+161 http 304 https://registry.npmjs.org/lodash
+162 verbose headers { date: 'Sun, 08 May 2016 08:55:39 GMT',
+162 verbose headers   via: '1.1 varnish',
+162 verbose headers   'cache-control': 'max-age=300',
+162 verbose headers   etag: '"BTBW9950HLSBL1SITOYD2JXIX"',
+162 verbose headers   age: '114',
+162 verbose headers   connection: 'keep-alive',
+162 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+162 verbose headers   'x-cache': 'HIT',
+162 verbose headers   'x-cache-hits': '12',
+162 verbose headers   'x-timer': 'S1462697739.625735,VS0,VE0',
+162 verbose headers   vary: 'Accept-Encoding' }
+163 silly get cb [ 304,
+163 silly get   { date: 'Sun, 08 May 2016 08:55:39 GMT',
+163 silly get     via: '1.1 varnish',
+163 silly get     'cache-control': 'max-age=300',
+163 silly get     etag: '"BTBW9950HLSBL1SITOYD2JXIX"',
+163 silly get     age: '114',
+163 silly get     connection: 'keep-alive',
+163 silly get     'x-served-by': 'cache-sin6921-SIN',
+163 silly get     'x-cache': 'HIT',
+163 silly get     'x-cache-hits': '12',
+163 silly get     'x-timer': 'S1462697739.625735,VS0,VE0',
+163 silly get     vary: 'Accept-Encoding' } ]
+164 verbose etag https://registry.npmjs.org/lodash from cache
+165 verbose get saving lodash to /Users/weizhang/.npm/registry.npmjs.org/lodash/.cache.json
+166 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+167 silly addNameRange number 2 { name: 'lodash', range: '>=0.9.0 <0.10.0', hasData: true }
+168 silly addNameRange versions [ 'lodash',
+168 silly addNameRange   [ '0.1.0',
+168 silly addNameRange     '0.2.0',
+168 silly addNameRange     '0.2.1',
+168 silly addNameRange     '0.2.2',
+168 silly addNameRange     '0.3.0',
+168 silly addNameRange     '0.3.1',
+168 silly addNameRange     '0.3.2',
+168 silly addNameRange     '0.4.0',
+168 silly addNameRange     '0.4.1',
+168 silly addNameRange     '0.4.2',
+168 silly addNameRange     '0.5.0-rc.1',
+168 silly addNameRange     '0.5.0',
+168 silly addNameRange     '0.5.1',
+168 silly addNameRange     '0.5.2',
+168 silly addNameRange     '0.6.0',
+168 silly addNameRange     '0.6.1',
+168 silly addNameRange     '0.7.0',
+168 silly addNameRange     '0.8.0',
+168 silly addNameRange     '0.8.1',
+168 silly addNameRange     '0.8.2',
+168 silly addNameRange     '0.9.0',
+168 silly addNameRange     '0.9.1',
+168 silly addNameRange     '0.9.2',
+168 silly addNameRange     '0.10.0',
+168 silly addNameRange     '1.0.0-rc.1',
+168 silly addNameRange     '1.0.0-rc.2',
+168 silly addNameRange     '1.0.0-rc.3',
+168 silly addNameRange     '1.0.0',
+168 silly addNameRange     '1.0.1',
+168 silly addNameRange     '1.1.0',
+168 silly addNameRange     '1.1.1',
+168 silly addNameRange     '1.2.0',
+168 silly addNameRange     '1.2.1',
+168 silly addNameRange     '1.3.0',
+168 silly addNameRange     '1.3.1',
+168 silly addNameRange     '2.0.0',
+168 silly addNameRange     '2.1.0',
+168 silly addNameRange     '2.2.0',
+168 silly addNameRange     '2.2.1',
+168 silly addNameRange     '2.3.0',
+168 silly addNameRange     '2.4.0',
+168 silly addNameRange     '2.4.1',
+168 silly addNameRange     '3.0.0',
+168 silly addNameRange     '3.0.1',
+168 silly addNameRange     '3.1.0',
+168 silly addNameRange     '3.2.0',
+168 silly addNameRange     '3.3.0',
+168 silly addNameRange     '3.3.1',
+168 silly addNameRange     '3.4.0',
+168 silly addNameRange     '3.5.0',
+168 silly addNameRange     '3.6.0',
+168 silly addNameRange     '1.0.2',
+168 silly addNameRange     '3.7.0',
+168 silly addNameRange     '2.4.2',
+168 silly addNameRange     '3.8.0',
+168 silly addNameRange     '3.9.0',
+168 silly addNameRange     '3.9.1',
+168 silly addNameRange     '3.9.2',
+168 silly addNameRange     '3.9.3',
+168 silly addNameRange     '3.10.0',
+168 silly addNameRange     '3.10.1',
+168 silly addNameRange     '4.0.0',
+168 silly addNameRange     '4.0.1',
+168 silly addNameRange     '4.1.0',
+168 silly addNameRange     '4.2.0',
+168 silly addNameRange     '4.2.1',
+168 silly addNameRange     '4.3.0',
+168 silly addNameRange     '4.4.0',
+168 silly addNameRange     '4.5.0',
+168 silly addNameRange     '4.5.1',
+168 silly addNameRange     '4.6.0',
+168 silly addNameRange     '4.6.1',
+168 silly addNameRange     '4.7.0',
+168 silly addNameRange     '4.8.0',
+168 silly addNameRange     '4.8.1',
+168 silly addNameRange     '4.8.2',
+168 silly addNameRange     '4.9.0',
+168 silly addNameRange     '4.10.0',
+168 silly addNameRange     '4.11.0',
+168 silly addNameRange     '4.11.1',
+168 silly addNameRange     '4.11.2' ] ]
+169 silly addNamed lodash@0.9.2
+170 verbose addNamed "0.9.2" is a plain semver version for lodash
+171 silly cache afterAdd lodash@0.9.2
+172 verbose afterAdd /Users/weizhang/.npm/lodash/0.9.2/package/package.json not in flight; writing
+173 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+174 verbose afterAdd /Users/weizhang/.npm/lodash/0.9.2/package/package.json written
+175 silly install resolved [ { name: 'http-proxy',
+175 silly install resolved     version: '1.11.3',
+175 silly install resolved     repository:
+175 silly install resolved      { type: 'git',
+175 silly install resolved        url: 'git+https://github.com/nodejitsu/node-http-proxy.git' },
+175 silly install resolved     description: 'HTTP proxying for the masses',
+175 silly install resolved     author: { name: 'Nodejitsu Inc.', email: 'info@nodejitsu.com' },
+175 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+175 silly install resolved     main: 'index.js',
+175 silly install resolved     dependencies: { eventemitter3: '1.x.x', 'requires-port': '0.x.x' },
+175 silly install resolved     devDependencies:
+175 silly install resolved      { async: '*',
+175 silly install resolved        blanket: '*',
+175 silly install resolved        coveralls: '*',
+175 silly install resolved        dox: '*',
+175 silly install resolved        'expect.js': '*',
+175 silly install resolved        mocha: '*',
+175 silly install resolved        'mocha-lcov-reporter': '*',
+175 silly install resolved        semver: '^4.3.3',
+175 silly install resolved        'socket.io': '*',
+175 silly install resolved        'socket.io-client': '*',
+175 silly install resolved        ws: '~0.5.0' },
+175 silly install resolved     scripts:
+175 silly install resolved      { coveralls: 'mocha --require blanket --reporter mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js',
+175 silly install resolved        test: 'mocha -R landing test/*-test.js',
+175 silly install resolved        'test-cov': 'mocha --require blanket -R html-cov > cov/coverage.html' },
+175 silly install resolved     engines: { node: '>=0.10.0' },
+175 silly install resolved     license: 'MIT',
+175 silly install resolved     gitHead: '60baca5aed4f45ef1d7b3f7edd909375853d344b',
+175 silly install resolved     bugs: { url: 'https://github.com/nodejitsu/node-http-proxy/issues' },
+175 silly install resolved     homepage: 'https://github.com/nodejitsu/node-http-proxy#readme',
+175 silly install resolved     _id: 'http-proxy@1.11.3',
+175 silly install resolved     _shasum: '1915dc888751e2a6bf3c2abfcb1808fa86c72353',
+175 silly install resolved     _from: 'http-proxy@>=1.11.0 <1.12.0',
+175 silly install resolved     _npmVersion: '2.14.7',
+175 silly install resolved     _nodeVersion: '4.2.1',
+175 silly install resolved     _npmUser: { name: 'jcrugzz', email: 'jcrugzz@gmail.com' },
+175 silly install resolved     dist:
+175 silly install resolved      { shasum: '1915dc888751e2a6bf3c2abfcb1808fa86c72353',
+175 silly install resolved        tarball: 'https://registry.npmjs.org/http-proxy/-/http-proxy-1.11.3.tgz' },
+175 silly install resolved     directories: {},
+175 silly install resolved     _resolved: 'https://registry.npmjs.org/http-proxy/-/http-proxy-1.11.3.tgz',
+175 silly install resolved     readme: 'ERROR: No README data found!' },
+175 silly install resolved   { name: 'lodash',
+175 silly install resolved     version: '0.9.2',
+175 silly install resolved     description: 'A utility library delivering consistency, customization, performance, and extras.',
+175 silly install resolved     homepage: 'http://lodash.com',
+175 silly install resolved     license: 'MIT',
+175 silly install resolved     main: './lodash.js',
+175 silly install resolved     keywords:
+175 silly install resolved      [ 'browser',
+175 silly install resolved        'client',
+175 silly install resolved        'functional',
+175 silly install resolved        'performance',
+175 silly install resolved        'server',
+175 silly install resolved        'speed',
+175 silly install resolved        'util' ],
+175 silly install resolved     author:
+175 silly install resolved      { name: 'John-David Dalton',
+175 silly install resolved        email: 'john.david.dalton@gmail.com',
+175 silly install resolved        url: 'http://allyoucanleet.com/' },
+175 silly install resolved     contributors: [ [Object], [Object], [Object], [Object] ],
+175 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+175 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+175 silly install resolved     engines: [ 'node', 'rhino' ],
+175 silly install resolved     jam: { main: './lodash.js' },
+175 silly install resolved     _id: 'lodash@0.9.2',
+175 silly install resolved     dist:
+175 silly install resolved      { shasum: '8f3499c5245d346d682e5b0d3b40767e09f1a92c',
+175 silly install resolved        tarball: 'https://registry.npmjs.org/lodash/-/lodash-0.9.2.tgz' },
+175 silly install resolved     _from: 'lodash@>=0.9.0 <0.10.0',
+175 silly install resolved     _npmVersion: '1.2.24',
+175 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+175 silly install resolved     maintainers: [ [Object] ],
+175 silly install resolved     directories: {},
+175 silly install resolved     _shasum: '8f3499c5245d346d682e5b0d3b40767e09f1a92c',
+175 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-0.9.2.tgz',
+175 silly install resolved     readme: 'ERROR: No README data found!' } ]
+176 info install http-proxy@1.11.3 into /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+177 info install lodash@0.9.2 into /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+178 info installOne http-proxy@1.11.3
+179 verbose installOne of http-proxy to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy not in flight; installing
+180 verbose correctMkdir /Users/weizhang/.npm/_locks correctMkdir not in flight; initializing
+181 info installOne lodash@0.9.2
+182 verbose installOne of lodash to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy not in flight; installing
+183 verbose correctMkdir /Users/weizhang/.npm/_locks correctMkdir not in flight; initializing
+184 verbose lock using /Users/weizhang/.npm/_locks/http-proxy-9d4ea74c3ed6d7f9.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+185 silly install write writing http-proxy 1.11.3 to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+186 verbose lock using /Users/weizhang/.npm/_locks/lodash-5d0dcb27b84d1524.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+187 silly install write writing lodash 0.9.2 to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+188 verbose unbuild node_modules/grunt-connect-proxy/node_modules/http-proxy
+189 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy is being purged from base /Users/weizhang/Project/chat-system/client
+190 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+191 verbose tar unpack /Users/weizhang/.npm/http-proxy/1.11.3/package.tgz
+192 verbose tar unpacking to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+193 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy is being purged
+194 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+195 verbose unbuild node_modules/grunt-connect-proxy/node_modules/lodash
+196 silly gunzTarPerm modes [ '755', '644' ]
+197 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash is being purged from base /Users/weizhang/Project/chat-system/client
+198 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+199 verbose tar unpack /Users/weizhang/.npm/lodash/0.9.2/package.tgz
+200 verbose tar unpacking to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+201 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash is being purged
+202 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+203 silly gunzTarPerm modes [ '755', '644' ]
+204 silly gunzTarPerm extractEntry package.json
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry .npmignore
+207 silly gunzTarPerm extractEntry README.md
+208 silly gunzTarPerm extractEntry README.md
+209 silly gunzTarPerm extractEntry lodash.js
+210 silly gunzTarPerm extractEntry LICENSE
+211 silly gunzTarPerm extractEntry lodash.min.js
+212 silly gunzTarPerm extractEntry index.js
+213 silly gunzTarPerm extractEntry lib/http-proxy.js
+214 silly gunzTarPerm extractEntry lodash.underscore.js
+215 silly gunzTarPerm extractEntry lodash.underscore.min.js
+216 silly gunzTarPerm extractEntry lib/http-proxy/common.js
+217 silly gunzTarPerm extractEntry lib/http-proxy/index.js
+218 silly gunzTarPerm extractEntry lib/http-proxy/passes/web-incoming.js
+219 silly gunzTarPerm extractEntry lib/http-proxy/passes/web-outgoing.js
+220 silly gunzTarPerm extractEntry lib/http-proxy/passes/ws-incoming.js
+221 verbose write writing to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash/package.json
+222 info preinstall lodash@0.9.2
+223 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash/package.json
+224 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash/package.json
+225 silly install resolved []
+226 verbose about to build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+227 info build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+228 info linkStuff lodash@0.9.2
+229 silly linkStuff lodash@0.9.2 has /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules as its parent node_modules
+230 verbose write writing to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/package.json
+231 verbose linkBins lodash@0.9.2
+232 verbose linkMans lodash@0.9.2
+233 verbose rebuildBundles lodash@0.9.2
+234 info install lodash@0.9.2
+235 info postinstall lodash@0.9.2
+236 info preinstall http-proxy@1.11.3
+237 verbose unlock done using /Users/weizhang/.npm/_locks/lodash-5d0dcb27b84d1524.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/lodash
+238 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/package.json
+239 silly prepareForInstallMany adding eventemitter3@1.x.x from http-proxy dependencies
+240 silly prepareForInstallMany adding requires-port@0.x.x from http-proxy dependencies
+241 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/package.json
+242 silly cache add args [ 'eventemitter3@1.x.x', null ]
+243 verbose cache add spec eventemitter3@1.x.x
+244 silly cache add args [ 'requires-port@0.x.x', null ]
+245 verbose cache add spec requires-port@0.x.x
+246 silly cache add parsed spec Result {
+246 silly cache add   raw: 'eventemitter3@1.x.x',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'eventemitter3',
+246 silly cache add   rawSpec: '1.x.x',
+246 silly cache add   spec: '>=1.0.0 <2.0.0',
+246 silly cache add   type: 'range' }
+247 silly addNamed eventemitter3@>=1.0.0 <2.0.0
+248 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for eventemitter3
+249 silly addNameRange { name: 'eventemitter3',
+249 silly addNameRange   range: '>=1.0.0 <2.0.0',
+249 silly addNameRange   hasData: false }
+250 silly mapToRegistry name eventemitter3
+251 silly mapToRegistry using default registry
+252 silly mapToRegistry registry https://registry.npmjs.org/
+253 silly mapToRegistry data Result {
+253 silly mapToRegistry   raw: 'eventemitter3',
+253 silly mapToRegistry   scope: null,
+253 silly mapToRegistry   name: 'eventemitter3',
+253 silly mapToRegistry   rawSpec: '',
+253 silly mapToRegistry   spec: 'latest',
+253 silly mapToRegistry   type: 'tag' }
+254 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+255 verbose addNameRange registry:https://registry.npmjs.org/eventemitter3 not in flight; fetching
+256 silly cache add parsed spec Result {
+256 silly cache add   raw: 'requires-port@0.x.x',
+256 silly cache add   scope: null,
+256 silly cache add   name: 'requires-port',
+256 silly cache add   rawSpec: '0.x.x',
+256 silly cache add   spec: '>=0.0.0 <1.0.0',
+256 silly cache add   type: 'range' }
+257 silly addNamed requires-port@>=0.0.0 <1.0.0
+258 verbose addNamed ">=0.0.0 <1.0.0" is a valid semver range for requires-port
+259 silly addNameRange { name: 'requires-port',
+259 silly addNameRange   range: '>=0.0.0 <1.0.0',
+259 silly addNameRange   hasData: false }
+260 silly mapToRegistry name requires-port
+261 silly mapToRegistry using default registry
+262 silly mapToRegistry registry https://registry.npmjs.org/
+263 silly mapToRegistry data Result {
+263 silly mapToRegistry   raw: 'requires-port',
+263 silly mapToRegistry   scope: null,
+263 silly mapToRegistry   name: 'requires-port',
+263 silly mapToRegistry   rawSpec: '',
+263 silly mapToRegistry   spec: 'latest',
+263 silly mapToRegistry   type: 'tag' }
+264 silly mapToRegistry uri https://registry.npmjs.org/requires-port
+265 verbose addNameRange registry:https://registry.npmjs.org/requires-port not in flight; fetching
+266 verbose request uri https://registry.npmjs.org/eventemitter3
+267 verbose request no auth needed
+268 info attempt registry request try #1 at 4:55:39 PM
+269 verbose etag "8DEZDGF5FLRRMDZOXBV7WJ1UX"
+270 http request GET https://registry.npmjs.org/eventemitter3
+271 verbose request uri https://registry.npmjs.org/requires-port
+272 verbose request no auth needed
+273 info attempt registry request try #1 at 4:55:39 PM
+274 verbose etag "E0O0T58ME0HOXF1OX00AGM99O"
+275 http request GET https://registry.npmjs.org/requires-port
+276 http 304 https://registry.npmjs.org/eventemitter3
+277 verbose headers { date: 'Sun, 08 May 2016 08:55:39 GMT',
+277 verbose headers   via: '1.1 varnish',
+277 verbose headers   'cache-control': 'max-age=300',
+277 verbose headers   etag: '"8DEZDGF5FLRRMDZOXBV7WJ1UX"',
+277 verbose headers   age: '71',
+277 verbose headers   connection: 'keep-alive',
+277 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+277 verbose headers   'x-cache': 'HIT',
+277 verbose headers   'x-cache-hits': '2',
+277 verbose headers   'x-timer': 'S1462697739.882808,VS0,VE0',
+277 verbose headers   vary: 'Accept-Encoding' }
+278 silly get cb [ 304,
+278 silly get   { date: 'Sun, 08 May 2016 08:55:39 GMT',
+278 silly get     via: '1.1 varnish',
+278 silly get     'cache-control': 'max-age=300',
+278 silly get     etag: '"8DEZDGF5FLRRMDZOXBV7WJ1UX"',
+278 silly get     age: '71',
+278 silly get     connection: 'keep-alive',
+278 silly get     'x-served-by': 'cache-sin6920-SIN',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '2',
+278 silly get     'x-timer': 'S1462697739.882808,VS0,VE0',
+278 silly get     vary: 'Accept-Encoding' } ]
+279 verbose etag https://registry.npmjs.org/eventemitter3 from cache
+280 verbose get saving eventemitter3 to /Users/weizhang/.npm/registry.npmjs.org/eventemitter3/.cache.json
+281 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+282 silly addNameRange number 2 { name: 'eventemitter3', range: '>=1.0.0 <2.0.0', hasData: true }
+283 silly addNameRange versions [ 'eventemitter3',
+283 silly addNameRange   [ '0.0.0',
+283 silly addNameRange     '0.0.1',
+283 silly addNameRange     '0.1.0',
+283 silly addNameRange     '0.1.1',
+283 silly addNameRange     '0.1.2',
+283 silly addNameRange     '0.1.3',
+283 silly addNameRange     '0.1.4',
+283 silly addNameRange     '0.1.5',
+283 silly addNameRange     '0.1.6',
+283 silly addNameRange     '1.0.0',
+283 silly addNameRange     '1.0.1',
+283 silly addNameRange     '1.0.2',
+283 silly addNameRange     '1.0.3',
+283 silly addNameRange     '1.1.0',
+283 silly addNameRange     '1.1.1',
+283 silly addNameRange     '1.2.0' ] ]
+284 silly addNamed eventemitter3@1.2.0
+285 verbose addNamed "1.2.0" is a plain semver version for eventemitter3
+286 silly cache afterAdd eventemitter3@1.2.0
+287 verbose afterAdd /Users/weizhang/.npm/eventemitter3/1.2.0/package/package.json not in flight; writing
+288 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+289 http 304 https://registry.npmjs.org/requires-port
+290 verbose headers { date: 'Sun, 08 May 2016 08:55:39 GMT',
+290 verbose headers   via: '1.1 varnish',
+290 verbose headers   'cache-control': 'max-age=300',
+290 verbose headers   etag: '"E0O0T58ME0HOXF1OX00AGM99O"',
+290 verbose headers   age: '71',
+290 verbose headers   connection: 'keep-alive',
+290 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+290 verbose headers   'x-cache': 'HIT',
+290 verbose headers   'x-cache-hits': '2',
+290 verbose headers   'x-timer': 'S1462697739.885366,VS0,VE0',
+290 verbose headers   vary: 'Accept-Encoding' }
+291 silly get cb [ 304,
+291 silly get   { date: 'Sun, 08 May 2016 08:55:39 GMT',
+291 silly get     via: '1.1 varnish',
+291 silly get     'cache-control': 'max-age=300',
+291 silly get     etag: '"E0O0T58ME0HOXF1OX00AGM99O"',
+291 silly get     age: '71',
+291 silly get     connection: 'keep-alive',
+291 silly get     'x-served-by': 'cache-sin6921-SIN',
+291 silly get     'x-cache': 'HIT',
+291 silly get     'x-cache-hits': '2',
+291 silly get     'x-timer': 'S1462697739.885366,VS0,VE0',
+291 silly get     vary: 'Accept-Encoding' } ]
+292 verbose etag https://registry.npmjs.org/requires-port from cache
+293 verbose get saving requires-port to /Users/weizhang/.npm/registry.npmjs.org/requires-port/.cache.json
+294 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+295 verbose afterAdd /Users/weizhang/.npm/eventemitter3/1.2.0/package/package.json written
+296 silly addNameRange number 2 { name: 'requires-port', range: '>=0.0.0 <1.0.0', hasData: true }
+297 silly addNameRange versions [ 'requires-port', [ '0.0.0', '0.0.1', '1.0.0' ] ]
+298 silly addNamed requires-port@0.0.1
+299 verbose addNamed "0.0.1" is a plain semver version for requires-port
+300 silly cache afterAdd requires-port@0.0.1
+301 verbose afterAdd /Users/weizhang/.npm/requires-port/0.0.1/package/package.json not in flight; writing
+302 verbose correctMkdir /Users/weizhang/.npm correctMkdir not in flight; initializing
+303 verbose afterAdd /Users/weizhang/.npm/requires-port/0.0.1/package/package.json written
+304 silly install resolved [ { name: 'eventemitter3',
+304 silly install resolved     version: '1.2.0',
+304 silly install resolved     description: 'EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface.',
+304 silly install resolved     main: 'index.js',
+304 silly install resolved     scripts:
+304 silly install resolved      { 'test-node': 'istanbul cover _mocha --report lcovonly -- test.js',
+304 silly install resolved        coverage: 'istanbul cover _mocha -- test.js',
+304 silly install resolved        'test-browser': 'zuul -- test.js',
+304 silly install resolved        sync: 'node versions.js',
+304 silly install resolved        test: 'mocha test.js' },
+304 silly install resolved     repository:
+304 silly install resolved      { type: 'git',
+304 silly install resolved        url: 'git://github.com/primus/eventemitter3.git' },
+304 silly install resolved     keywords:
+304 silly install resolved      [ 'EventEmitter',
+304 silly install resolved        'EventEmitter2',
+304 silly install resolved        'EventEmitter3',
+304 silly install resolved        'Events',
+304 silly install resolved        'addEventListener',
+304 silly install resolved        'addListener',
+304 silly install resolved        'emit',
+304 silly install resolved        'emits',
+304 silly install resolved        'emitter',
+304 silly install resolved        'event',
+304 silly install resolved        'once',
+304 silly install resolved        'pub/sub',
+304 silly install resolved        'publish',
+304 silly install resolved        'reactor',
+304 silly install resolved        'subscribe' ],
+304 silly install resolved     author: { name: 'Arnout Kazemier' },
+304 silly install resolved     license: 'MIT',
+304 silly install resolved     bugs: { url: 'https://github.com/primus/eventemitter3/issues' },
+304 silly install resolved     'pre-commit': 'sync, test',
+304 silly install resolved     devDependencies:
+304 silly install resolved      { assume: '1.3.x',
+304 silly install resolved        istanbul: '0.4.x',
+304 silly install resolved        mocha: '2.4.x',
+304 silly install resolved        'pre-commit': '1.1.x',
+304 silly install resolved        zuul: '3.10.x' },
+304 silly install resolved     gitHead: 'c78d597fed80952c259b916c0a1f4dca91d940e4',
+304 silly install resolved     homepage: 'https://github.com/primus/eventemitter3#readme',
+304 silly install resolved     _id: 'eventemitter3@1.2.0',
+304 silly install resolved     _shasum: '1c86991d816ad1e504750e73874224ecf3bec508',
+304 silly install resolved     _from: 'eventemitter3@>=1.0.0 <2.0.0',
+304 silly install resolved     _npmVersion: '3.8.0',
+304 silly install resolved     _nodeVersion: '4.3.1',
+304 silly install resolved     _npmUser: { name: '3rdeden', email: 'npm@3rd-Eden.com' },
+304 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+304 silly install resolved     dist:
+304 silly install resolved      { shasum: '1c86991d816ad1e504750e73874224ecf3bec508',
+304 silly install resolved        tarball: 'https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.2.0.tgz' },
+304 silly install resolved     _npmOperationalInternal:
+304 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+304 silly install resolved        tmp: 'tmp/eventemitter3-1.2.0.tgz_1458148661717_0.1867425285745412' },
+304 silly install resolved     directories: {},
+304 silly install resolved     _resolved: 'https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.2.0.tgz',
+304 silly install resolved     readme: 'ERROR: No README data found!' },
+304 silly install resolved   { name: 'requires-port',
+304 silly install resolved     version: '0.0.1',
+304 silly install resolved     description: 'Check if a protocol requires a certain port number to be added to an URL.',
+304 silly install resolved     main: 'index.js',
+304 silly install resolved     scripts:
+304 silly install resolved      { '100%': 'istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100',
+304 silly install resolved        test: 'mocha test.js',
+304 silly install resolved        watch: 'mocha --watch test.js',
+304 silly install resolved        coverage: 'istanbul cover ./node_modules/.bin/_mocha -- test.js',
+304 silly install resolved        'test-travis': 'istanbul cover node_modules/.bin/_mocha --report lcovonly -- test.js' },
+304 silly install resolved     repository:
+304 silly install resolved      { type: 'git',
+304 silly install resolved        url: 'git+https://github.com/unshiftio/requires-port.git' },
+304 silly install resolved     keywords:
+304 silly install resolved      [ 'port',
+304 silly install resolved        'require',
+304 silly install resolved        'http',
+304 silly install resolved        'https',
+304 silly install resolved        'ws',
+304 silly install resolved        'wss',
+304 silly install resolved        'gopher',
+304 silly install resolved        'file',
+304 silly install resolved        'ftp',
+304 silly install resolved        'requires',
+304 silly install resolved        'requried',
+304 silly install resolved        'portnumber',
+304 silly install resolved        'url',
+304 silly install resolved        'parsing',
+304 silly install resolved        'validation',
+304 silly install resolved        'cows' ],
+304 silly install resolved     author: { name: 'Arnout Kazemier' },
+304 silly install resolved     license: 'MIT',
+304 silly install resolved     bugs: { url: 'https://github.com/unshiftio/requires-port/issues' },
+304 silly install resolved     homepage: 'https://github.com/unshiftio/requires-port',
+304 silly install resolved     devDependencies:
+304 silly install resolved      { assume: '1.1.x',
+304 silly install resolved        istanbul: '0.3.x',
+304 silly install resolved        mocha: '2.1.x',
+304 silly install resolved        'pre-commit': '1.0.x' },
+304 silly install resolved     gitHead: 'd6235df7aa7e8d08e9ac72c842e1e2c6c366376f',
+304 silly install resolved     _id: 'requires-port@0.0.1',
+304 silly install resolved     _shasum: '4b4414411d9df7c855995dd899a8c78a2951c16d',
+304 silly install resolved     _from: 'requires-port@>=0.0.0 <1.0.0',
+304 silly install resolved     _npmVersion: '2.9.1',
+304 silly install resolved     _nodeVersion: '0.12.3',
+304 silly install resolved     _npmUser: { name: '3rdeden', email: 'npm@3rd-Eden.com' },
+304 silly install resolved     maintainers: [ [Object], [Object] ],
+304 silly install resolved     dist:
+304 silly install resolved      { shasum: '4b4414411d9df7c855995dd899a8c78a2951c16d',
+304 silly install resolved        tarball: 'https://registry.npmjs.org/requires-port/-/requires-port-0.0.1.tgz' },
+304 silly install resolved     directories: {},
+304 silly install resolved     _resolved: 'https://registry.npmjs.org/requires-port/-/requires-port-0.0.1.tgz',
+304 silly install resolved     readme: 'ERROR: No README data found!' } ]
+305 info install eventemitter3@1.2.0 into /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+306 info install requires-port@0.0.1 into /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+307 info installOne eventemitter3@1.2.0
+308 verbose installOne of eventemitter3 to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy not in flight; installing
+309 verbose correctMkdir /Users/weizhang/.npm/_locks correctMkdir not in flight; initializing
+310 info installOne requires-port@0.0.1
+311 verbose installOne of requires-port to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy not in flight; installing
+312 verbose correctMkdir /Users/weizhang/.npm/_locks correctMkdir not in flight; initializing
+313 verbose lock using /Users/weizhang/.npm/_locks/eventemitter3-8694fd00ffc7bd91.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+314 silly install write writing eventemitter3 1.2.0 to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+315 verbose lock using /Users/weizhang/.npm/_locks/requires-port-c4db114d236a6c18.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+316 silly install write writing requires-port 0.0.1 to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+317 verbose unbuild node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+318 verbose unbuild node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+319 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3 is being purged from base /Users/weizhang/Project/chat-system/client
+320 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+321 verbose tar unpack /Users/weizhang/.npm/eventemitter3/1.2.0/package.tgz
+322 verbose tar unpacking to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+323 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3 is being purged
+324 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+325 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port is being purged from base /Users/weizhang/Project/chat-system/client
+326 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+327 silly gunzTarPerm modes [ '755', '644' ]
+328 verbose tar unpack /Users/weizhang/.npm/requires-port/0.0.1/package.tgz
+329 verbose tar unpacking to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+330 silly gentlyRm /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port is being purged
+331 verbose gentlyRm don't care about contents; nuking /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+332 silly gunzTarPerm modes [ '755', '644' ]
+333 silly gunzTarPerm extractEntry package.json
+334 silly gunzTarPerm extractEntry package.json
+335 silly gunzTarPerm extractEntry README.md
+336 silly gunzTarPerm extractEntry LICENSE
+337 silly gunzTarPerm extractEntry .npmignore
+338 silly gunzTarPerm extractEntry README.md
+339 silly gunzTarPerm extractEntry index.js
+340 silly gunzTarPerm extractEntry LICENSE
+341 silly gunzTarPerm extractEntry index.js
+342 silly gunzTarPerm extractEntry test.js
+343 silly gunzTarPerm extractEntry .travis.yml
+344 verbose write writing to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3/package.json
+345 info preinstall eventemitter3@1.2.0
+346 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3/package.json
+347 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3/package.json
+348 silly install resolved []
+349 verbose about to build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+350 info build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+351 info linkStuff eventemitter3@1.2.0
+352 silly linkStuff eventemitter3@1.2.0 has /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules as its parent node_modules
+353 verbose write writing to /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/package.json
+354 verbose linkBins eventemitter3@1.2.0
+355 verbose linkMans eventemitter3@1.2.0
+356 verbose rebuildBundles eventemitter3@1.2.0
+357 info install eventemitter3@1.2.0
+358 info postinstall eventemitter3@1.2.0
+359 info preinstall requires-port@0.0.1
+360 verbose unlock done using /Users/weizhang/.npm/_locks/eventemitter3-8694fd00ffc7bd91.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/eventemitter3
+361 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/package.json
+362 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port/package.json
+363 silly install resolved []
+364 verbose about to build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+365 info build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+366 info linkStuff requires-port@0.0.1
+367 silly linkStuff requires-port@0.0.1 has /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules as its parent node_modules
+368 verbose linkBins requires-port@0.0.1
+369 verbose linkMans requires-port@0.0.1
+370 verbose rebuildBundles requires-port@0.0.1
+371 info install requires-port@0.0.1
+372 info postinstall requires-port@0.0.1
+373 verbose unlock done using /Users/weizhang/.npm/_locks/requires-port-c4db114d236a6c18.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy/node_modules/requires-port
+374 verbose about to build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+375 info build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+376 info linkStuff http-proxy@1.11.3
+377 silly linkStuff http-proxy@1.11.3 has /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules as its parent node_modules
+378 verbose linkBins http-proxy@1.11.3
+379 verbose linkMans http-proxy@1.11.3
+380 verbose rebuildBundles http-proxy@1.11.3
+381 verbose rebuildBundles [ 'eventemitter3', 'requires-port' ]
+382 info install http-proxy@1.11.3
+383 info postinstall http-proxy@1.11.3
+384 verbose unlock done using /Users/weizhang/.npm/_locks/http-proxy-9d4ea74c3ed6d7f9.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/node_modules/http-proxy
+385 verbose about to build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+386 info build /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+387 info linkStuff grunt-connect-proxy@0.2.0
+388 silly linkStuff grunt-connect-proxy@0.2.0 has /Users/weizhang/Project/chat-system/client/node_modules as its parent node_modules
+389 verbose linkBins grunt-connect-proxy@0.2.0
+390 verbose linkMans grunt-connect-proxy@0.2.0
+391 verbose rebuildBundles grunt-connect-proxy@0.2.0
+392 verbose rebuildBundles [ 'http-proxy', 'lodash' ]
+393 info install grunt-connect-proxy@0.2.0
+394 info postinstall grunt-connect-proxy@0.2.0
+395 verbose readDependencies loading dependencies from /Users/weizhang/Project/chat-system/client/package.json
+396 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/babel-core/package.json
+397 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/babel-preset-es2015/package.json
+398 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/babel-register/package.json
+399 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/browser-sync/package.json
+400 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/del/package.json
+401 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/grunt/package.json
+402 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy/package.json
+403 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp/package.json
+404 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-autoprefixer/package.json
+405 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-babel/package.json
+406 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-cache/package.json
+407 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-cssnano/package.json
+408 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-eslint/package.json
+409 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-htmlmin/package.json
+410 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-if/package.json
+411 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-imagemin/package.json
+412 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-load-plugins/package.json
+413 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-plumber/package.json
+414 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-size/package.json
+415 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-sourcemaps/package.json
+416 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-uglify/package.json
+417 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/gulp-useref/package.json
+418 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/main-bower-files/package.json
+419 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/wiredep/package.json
+420 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/.bin/browser-sync/package.json
+421 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/.bin/grunt/package.json
+422 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/.bin/gulp/package.json
+423 verbose targetResolver reading package data from /Users/weizhang/Project/chat-system/client/node_modules/.bin/wiredep/package.json
+424 verbose already installed skipping grunt@~0.4.1 /Users/weizhang/Project/chat-system/client
+425 silly install resolved []
+426 verbose unlock done using /Users/weizhang/.npm/_locks/grunt-connect-proxy-8d2048f66f3fe1d0.lock for /Users/weizhang/Project/chat-system/client/node_modules/grunt-connect-proxy
+427 verbose validateInstall loading /Users/weizhang/Project/chat-system/client/package.json for validation
+428 verbose stack Error: The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+428 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+428 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+428 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+428 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+428 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+428 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+428 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+428 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+428 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+428 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+429 verbose cwd /Users/weizhang/Project/chat-system/client
+430 error Darwin 14.5.0
+431 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "grunt-connect-proxy" "--save-dev"
+432 error node v4.4.4
+433 error npm  v2.15.1
+434 error code EPEERINVALID
+435 error peerinvalid The package grunt@1.0.1 does not satisfy its siblings' peerDependencies requirements!
+435 error peerinvalid Peer grunt-connect-proxy@0.2.0 wants grunt@~0.4.1
+436 verbose exit [ 1, true ]
