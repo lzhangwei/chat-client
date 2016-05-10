@@ -1,7 +1,9 @@
 $(document).ready(function () {
   if (typeof(Storage) !== "undefined") {
-    if(localStorage.getItem("login_name") != null) {
-      $('#login-but').text(localStorage.getItem("login_name"));
+    var userName = localStorage.getItem("login_name");
+    var userRole = localStorage.getItem("user_role");
+      if(userName != null && userRole != null) {
+      $('#login-but').text(userName);
     } else{
       $('#login-but').text("登录");
     }
