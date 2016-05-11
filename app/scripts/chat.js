@@ -20,6 +20,7 @@ $(document).ready(function () {
   $('#send_but').on('click', function () {
     var message = $('#message_input').val();
     $('#chat_panel').append('<li class="list-group-item">' + userName + ': ' + message + '</li>');
+    $('#message_input').val("");
     socket.emit('message', userName, userRole, message);
   });
 });
