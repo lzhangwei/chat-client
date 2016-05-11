@@ -38,16 +38,17 @@
 
     <!--Panel Body-->
     <div class="panel-body" style="height: 450px;overflow-y: scroll;">
-
+      <ul class="list-group" id="chat_panel">
+      </ul>
 
     </div>
 
     <!--Panel Footer-->
     <div class="panel-footer">
       <div class="input-group">
-        <input type="text" class="form-control" placeholder="输入需要发送的信息...">
+        <input id="message_input" type="text" class="form-control" placeholder="输入需要发送的信息...">
         <span class="input-group-btn">
-          <button class="btn btn-default" type="button">发送</button>
+          <button class="btn btn-default" type="button" id="send_but">发送</button>
         </span>
       </div>
     </div>
