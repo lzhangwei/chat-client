@@ -7,7 +7,7 @@
 * 一对一聊天
 
 ## 实现
-* HTML,CSS,JavaScript,Bootstrap,H5 Local Storage
+* Bootstrap,jQuery,H5 Local Storage
 * 项目搭建: [Yeoman](http://yeoman.io/learning/)
 * ``` bower install socket.io-client --save ```
 * 启动: ``` gulp serve ```
